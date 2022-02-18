@@ -129,8 +129,8 @@ class AIOSEO_Generator extends Core_Generator {
 			"og_image_type"       => "default", // string
 			"og_image_custom_url" => null, // string, value used as og:image when "custom_image" is selected as og_image_type
 			"og_image_custom_fields" => null, // string, key of the custom field to be used as og:image when og_image_type "custom" is selected
-			"og_custom_image_width" => 0, // int
-			"og_custom_image_height" => 0, // int
+			"og_image_width" => 0, // int
+			"og_image_height" => 0, // int
 			"og_video" => null, // ?
 			"og_custom_url" => null, // ?
 			"og_article_section" => "", // string, Output in a "article:section" metatag.
